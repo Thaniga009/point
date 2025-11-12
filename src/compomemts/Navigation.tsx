@@ -10,7 +10,7 @@ function Navigation() {
   };
   return (
     <>
-      <Box className="border-b border=gra-200 bg-white max-w-4xl mx-auto ">
+      <Box >
         <Flex gap="3" p="4" justify="center" wrap="wrap">
           <Link to="/" className="on-underline">
             <Button style={{ backgroundColor: "#f9a8d4 ",color:"Black",border: "2px solid Black" }}

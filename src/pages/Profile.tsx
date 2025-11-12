@@ -17,7 +17,7 @@ import { BsTelephone } from "react-icons/bs";
 
 function Profile() {
   return (
-    <Container size="3" py="6">
+    <Container max-w-4xl mx-auto  size="3" py="6">
       <Card className="bg-pink-50">
         <Flex direction="column" gap="4">
           <Flex align="center" gap="4">

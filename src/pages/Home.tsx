@@ -3,7 +3,7 @@ import { IoHeartOutline } from "react-icons/io5";
 
 function Home() {
   return (
-    <Container size="3" py="6">
+    <Container max-w-4xl mx-auto  size="3" py="6">
       <Box>
         <Heading size="8" mb="4"  className="text-pink-400">
           Enjoy your stay!

@@ -5,39 +5,47 @@ function Home() {
   return (
     <Container size="3" py="6">
       <Box>
-        <Heading size="8" mb="4" color="pink">
-          ยินดีต้อนรับสู่โลกของฉัน
+        <Heading size="8" mb="4"  className="text-pink-400">
+          Enjoy your stay!
         </Heading>
 
-        <Text size="4" mb="5" color="gray">
-          เว็บไชต์ของฉันเอง ยินดีต้อนรับ
+        <Text size="4" mb="5" className="text-gray-800">
+          <span className="animate-pulse">💗</span>
+          <span>Hi there! You just stepped into a wed site me.</span>
+          <span className="animate-pulse">💗</span>
         </Text>
 
         <Flex direction="column" gap="5">
-          <Card className="bg-gray-500" mt="5">
+          <Card className="bg-gray-800" mt="5">
             <Heading size="5" mb="2" className="flex items-center gap-2 ">
-              <IoHeartOutline  size={22}/>
-              เกี่ยวกับเว็บไซต์ของฉัน
+              <IoHeartOutline color="red" size={22}/>
+              About my wed site!
             </Heading>
 
             <Text>
-              เว็บไซต์นี้สร้างมาเพื่อเเนะนำตัวฉันเอง ในการเเนะนำชื่อ
-              การเเนะนำตัวเเละรวมไปถึงการใช้เทคฌนโลยีเกี่ยวกับการเขียนโค้ด
+              เว็บไชต์นี้สร้างมาเพื่อการเเนะนำตัวของฉันเอง รวมไปถึงสกิลของฉันในการนำเสนอตัวเอง มาทำความรู้จักฉันกันค่ะ
             </Text>
           </Card>
 
-          <Card className="bg-gray-500">
+          <Card className="bg-gray-800">
             <Heading size="5" mb="2" className="flex items-center gap-2">
-              <IoHeartOutline  size={22}/>
-              เทคโนโลยีที่ใช้
+              <IoHeartOutline color="red"  size={22}/>
+              Technologies I Use
             </Heading>
             <Text>
+              • Html,css,Java <br />
+              • Rect+Tailwind css <br />
               • React + TypeScript <br />
-              • React +Api <br />
+              • React + Api <br />
               • React Router สำหรับการจัดการหน้าเว็บ <br />
-              • Radix UI สำหรับ UI Components <br />• Vite สำหรับ Build Tool
+              
             </Text>
           </Card>
+           <Text size="5"  mt="2">
+             <span className="animate-pulse">✨</span>
+             <span>Thanks for stopping by — see you around</span>
+             <span className="animate-pulse">✨</span>
+           </Text>
         </Flex>
       </Box>
     </Container>

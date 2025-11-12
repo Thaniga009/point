@@ -13,7 +13,7 @@ function Navigation() {
       <Box className="border-b border=gra-200 bg-white">
         <Flex gap="3" p="4" justify="center" wrap="wrap">
           <Link to="/" className="on-underline">
-            <Button style={{ backgroundColor: "#ef448eff",color:"Black",border: "2px solid Black" }}
+            <Button style={{ backgroundColor: "#f9a8d4 ",color:"Black",border: "2px solid Black" }}
               variant={isActive("/") ? "solid" : "soft"} size="3">
               <IoHome size={18} />
               หน้าหลัก
@@ -21,7 +21,7 @@ function Navigation() {
           </Link>
           <Link to="/profile" className="on-underline">
             <Button
-              style={{ backgroundColor: "#ef4444",color: "Black",border: "2px solid Black"}}
+              style={{ backgroundColor: "rgba(186, 230, 253, 1) ",color: "Black",border: "2px solid Black"}}
               variant={isActive("/profile") ? "solid" : "soft"}
               size="3">
               <IoHeart size={18} />

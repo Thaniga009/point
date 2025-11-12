@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Theme>
-        <App />   {/* ✅ ต้องใส่ตรงนี้ */}
+        <App />  
       </Theme>
     </BrowserRouter>
   </React.StrictMode>,

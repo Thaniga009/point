@@ -11,7 +11,7 @@ function Home() {
 
         <Text size="4" mb="5" className="text-gray-800">
           <span className="animate-pulse">💗</span>
-          <span>Hi there! You just stepped into a wed site me.</span>
+          <span>Hi there! You just stepped into a web site me.</span>
           <span className="animate-pulse">💗</span>
         </Text>
 

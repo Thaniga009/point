@@ -32,7 +32,7 @@ function Profile() {
             </Avatar>
 
             <Box className="text-amber-300">
-              <Heading size="7">Thananika Thaomaisom</Heading>
+              <Heading size="7">Thaniga thaomaisom</Heading>
               <Text size="3" className="text-gray-800">
                 นักศึกษาวิศวกรรมคอมพิวเตอร์
               </Text>
@@ -50,7 +50,7 @@ function Profile() {
               เป็นคนที่หลงใหลในโลกของเทคโนโลยีและการสร้างสรรค์เว็บไซต์
               ชอบเรียนรู้สิ่งใหม่ ๆ และพัฒนาทักษะด้านโปรแกรมมิ่งอยู่เสมอ
               เพราะเชื่อว่า “การเรียนรู้ไม่มีวันสิ้นสุด” 🌷
-              <br />• Hi! I’m Thananika Thaomaisom I’m passionate about
+              <br />• Hi! I’m Thaniga thaomaisom I’m passionate about
               technology and web development. I love exploring new ideas,
               learning new things, and improving my.🌸
             </Text>

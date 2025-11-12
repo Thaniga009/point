@@ -19,7 +19,7 @@ function Home() {
           <Card className="bg-gray-800" mt="5">
             <Heading size="5" mb="2" className="flex items-center gap-2 ">
               <IoHeartOutline color="red" size={22}/>
-              About my wed site!
+              About my web site!
             </Heading>
 
             <Text>
